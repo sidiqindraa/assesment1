@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="36dp"
         android:fontFamily="@font/actor"
-        android:text="@string/nominaldenda"
+        android:text="@string/nominalgajih"
         app:layout_constraintBottom_toBottomOf="@+id/editNominal"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/editNominal" />
