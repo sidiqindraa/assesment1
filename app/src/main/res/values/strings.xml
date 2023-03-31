@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">dendagajih</string>
+    <string name="nominaldenda">NominalDenda</string>
+    <string name="persenan50">50%</string>
+    <string name="persenan40">40%</string>
+    <string name="persenan30">30%</string>
+    <string name="persenan20">20%</string>
+    <string name="persenan10">10%</string>
+    <string name="hitung">Hitung</string>
+
+</resources>
