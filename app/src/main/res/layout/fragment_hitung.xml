@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg"
+    tools:context=".ui.hitung.HitungFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/kurus"
+        android:gravity="center"
+        android:text="@string/limas_segi_empat"
+        android:textColor="#FFFFFF"
+        android:textSize="12pt"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="288dp"
+        android:layout_height="239dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="5dp" >
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/panjang"
+            android:textAlignment="center"
+            android:textSize="10pt"
+            android:background="@color/teal_700"
+            android:textColor="#FFFFFF"/>
+
+        <EditText
+            android:id="@+id/ePanjang"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E68989"
+            android:inputType="numberDecimal"
+            android:textSize="10pt" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="5dp" >
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/lebar"
+            android:textAlignment="center"
+
+            android:textSize="10pt"
+            android:background="@color/teal_700"
+            android:textColor="#FFFFFF"/>
+
+        <EditText
+            android:id="@+id/eLebar"
+            android:layout_width="match_parent"
+            android:textColor="@color/black"
+
+            android:layout_height="wrap_content"
+            android:background="#E68989"
+            android:inputType="numberDecimal"
+            android:textSize="10pt" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="5dp" >
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/tinggi"
+            android:textAlignment="center"
+
+            android:textSize="10pt"
+            android:background="@color/teal_700"
+            android:textColor="#FFFFFF"/>
+
+        <EditText
+            android:id="@+id/eTinggi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E68989"
+            android:inputType="numberDecimal"
+            android:textColor="@color/black"
+
+            android:textSize="10pt" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnHitung"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/gemuk"
+        android:text="@string/hitung"
+        android:textSize="10pt" />
+
+    <TextView
+        android:id="@+id/hasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="11pt"
+        android:layout_marginTop="10dp"
+        android:text="@string/hasil" />
+
+    <Button
+        android:id="@+id/shareButton"
+        android:layout_width="336dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"
+        android:text="@string/bagikan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/saranButton"
+        app:layout_constraintTop_toTopOf="@+id/saranButton" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/buttonGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        app:constraint_referenced_ids="saranButton,shareButton"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/btnAPI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lihat Data API" />
+
+
+</LinearLayout>

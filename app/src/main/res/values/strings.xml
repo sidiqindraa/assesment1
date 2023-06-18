@@ -1,12 +1,41 @@
 <resources>
-    <string name="app_name">dendagajih</string>
-    <string name="nominaldenda">NominalDenda</string>
-    <string name="persenan50">50%</string>
-    <string name="persenan40">40%</string>
-    <string name="persenan30">30%</string>
-    <string name="persenan20">20%</string>
-    <string name="persenan10">10%</string>
+    <string name="app_name">PiramidCount</string>
+    <string name="limas_segi_empat">Volume Limas Segi Empat</string>
+    <string name="panjang">Panjang</string>
+    <string name="lebar">Lebar</string>
+    <string name="tinggi">Tinggi</string>
     <string name="hitung">Hitung</string>
-    <string name="nominalgajih">Nominal Gajih</string>
+    <string name="switch_layout">Ubah tampilan</string>
+
+    <string name="hasil">Lihat Hasil</string>
+    <string name="panjang_invalid">Panjang tidak boleh kosong</string>
+    <string name="lebar_invalid">Lebar tidak boleh kosong</string>
+    <string name="tinggi_invalid">Tinggi tidak boleh kosong</string>
+    <string name="hasil_x">%1$.2f</string>
+    <string name="tentang_aplikasi">Tentang Aplikasi</string>
+    <string name="copyright">Aplikasi limas segi empat adalah sebuah program komputer atau aplikasi mobile yang dirancang untuk menghitung volume limas segi empat. Aplikasi ini memungkinkan pengguna untuk memasukkan nilai panjang, lebar, dan tinggi limas segi empat, dan kemudian menghitung volume limas berdasarkan nilai-nilai tersebut.
+
+Dengan menggunakan aplikasi limas segi empat, pengguna dapat dengan mudah dan cepat menghitung volume limas tanpa perlu melakukan perhitungan manual. Aplikasi ini biasanya dilengkapi dengan antarmuka yang intuitif dan sederhana, sehingga pengguna dapat dengan mudah memasukkan nilai-nilai yang dibutuhkan dan melihat hasil perhitungan volume secara langsung.
+
+</string>
+    <string name="bagikan">Bagikan</string>
+    <string name="message">%1$s diklik!</string>
+    <string name="notif_title">Ada Penemu baru!</string>
+    <string name="channel_name">Updater</string>
+    <string name="channel_desc">Update data Penemu otomatis</string>
+    <string name="notif_text">Cek sekarang biar nggak penasaran..</string>
+    <string name="bagikan_template">Volume Limas Segiempat : %1$s cm³</string>
+    <string name="belum_ada_data">Belum ada data</string>
+    <string name="histori">Histori</string>
+    <string name="hasil_xx">Panjang : %1$.2f - Lebar : %1$.2f - Tinggi : %1$.2f</string>
+    <string name="data_x">Hasil Volume Limas Segiempat : %1$s cm³</string>
+    <string name="hapus_histori">Hapus Histori</string>
+    <string name="konfirmasi_hapus">Hapus semua histori</string>
+    <string name="hapus">Hapus</string>
+    <string name="batal">Batal</string>
+    <string name="judulSplash">PiramidCount</string>
+    <string name="descSplash">Sidiq Indra Gunawan</string>
+    <string name="dev">Assesment2</string>
+    <string name="koneksi_error">koneksi error</string>
 
 </resources>
